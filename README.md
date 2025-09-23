@@ -2,7 +2,7 @@
 
 ## Sujet
 
-[Site Ubisoft](https://iruichek.io/page_ubisoft_site/)
+[Site Ubisoft](https://iruichek.github.io/page_ubisoft_site/)
 
 ## Membres du groupe :
 
