@@ -6,10 +6,10 @@
 
 ## Membres du groupe :
 
-- Étudiant 1 (référent) : [Ruichek Ibtisseme ](mailto:login1@edu.univ-fcomte.fr?subject=SAE)  
-- Étudiant 2 : [Taqui Sammy](mailto:login2@edu.univ-fcomte.fr?subject=SAE)  
-- Étudiant 3 : [Dylan](mailto:login3@edu.univ-fcomte.fr?subject=SAE)  
-- Étudiant 4 : [Samil Omeyya ](mailto:login4@edu.univ-fcomte.fr?subject=SAE)  
+- Étudiant 1 (référent) : [Ruichek Ibtisseme ](mailto:ibtisseme.ruichek@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
+- Étudiant 2 : [Taqi Sammy](mailto:sammy.taqi@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
+- Étudiant 3 : [Pernot Dylan](mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
+- Étudiant 4 : [Samil Omeyya ](mailto:omeyya.samil@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
 
 ## Présentation du projet
 
