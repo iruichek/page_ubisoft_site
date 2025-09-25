@@ -7,3 +7,18 @@ ul {
  display: flex;
  justify-content: center;
 }
+
+ul li a {
+ display: block;
+ color: black;
+ text-align: center;
+ padding: 10px 20px;
+ margin: 5px 30px;
+ text-decoration: none;
+ border-radius: 20px;
+}
+
+ul li a:hover {
+ background-color: magenta;
+ color: white;
+} 
