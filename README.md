@@ -13,5 +13,4 @@
 
 ## Présentation du projet
 
-Ce projet consiste à créer un site web simple, hébergé via GitHub Pages. Le site contient plusieurs pages HTML, une par membre, avec un menu commun pour naviguer entre elles. L’objectif est de répartir les tâches entre les membres et de montrer la collaboration.  
-Chaque page affiche clairement son auteur en pied de page.
+Ce dépôt correspond à un site web créé en HTML/CSS/JS dans le cadre de la SAÉ 05-06 à l'IUT de Belfort-Montbéliard. Ce site présente des informations concernant l'entreprise UBISOFT et sert de vitrine pour présenter l'entreprise, ses activité, son organisation et son historique. Vous trouverez dans ce dépôt et sur le site un rapport économique analysant l'aspect économique de UBISOFT.
