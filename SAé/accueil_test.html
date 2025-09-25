@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carousel à droite plein écran</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+  <nav>
+    <a href="#">Histoire</a>
+    <a href="#">Environnement</a>
+    <a href="#">Economie</a>
+    <a href="#">L'impact</a>
+    
+  </nav>
+</header>
+<body>
+
+<div class="container-fluid">
+  <div class="row no-gutters">
+
+
+    <div class="col-12 col-md-6 text-left">
+      <div>
+        <h2>Titre de la section</h2>
+        <p>Texte descriptif centré verticalement et horizontalement.</p>
+        <button class="btn btn-primary">Call to Action</button>
+      </div>
+    </div>
+
+
+    <div class="col-12 col-md-6 p-0">
+      <div id="carouselExampleInterval" class="carousel slide half-screen" data-bs-ride="carousel">
+        <div class="carousel-inner half-screen">
+          <div class="carousel-item active">
+            <img src="assassin's_creed.jpeg" class="carousel-img" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="far_cry_3.jpeg" class="carousel-img" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="starwars.jpeg" class="carousel-img" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
