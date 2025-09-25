@@ -1,0 +1,9 @@
+ul {
+ list-style-type: none;
+ margin: 40;
+ padding: 40;
+ overflow: hidden;
+ background-color: #ffffff;
+ display: flex;
+ justify-content: center;
+}
