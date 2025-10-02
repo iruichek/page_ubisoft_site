@@ -1,25 +1,46 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8" />
-    <title>SAE 56 - Site Ubisoft</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-     <link rel="stylesheet" href="page.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maquette avec diapo</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="image/Logo.png" />
 </head>
 <body>
-    <header>
-        <h1>Bienvenue sur le site Ubisoft de notre groupe SAE </h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueill</a></li>
-                <li><a href="page1.html">Page Ibtisseme</a></li>
-                <li><a href="SAé/accueil_test.html" >Page Dylan</a></li>
-                <li><a href="page2.html">Page2 Dylan</a></li>
-                <li><a href="page3.html">Page Sammy</a></li>
-                <li><a href="page4.html">Page Omeyya</a></li>
-            </ul>
-        </nav>
-    </header>
+
+  <!-- HEADER / NAVBAR -->
+<header class="navbar">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="accueil_test.html"><img class="Logo_IbtiTech" src="image/Logo-removebg-preview.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link "  href="accueil_test.html">Histoire</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page.html">Economie</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page3.html">Environnement</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page3.html">social</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn btn-outline-success btn_nav" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
 
     <main>
         <p>Ce site présente le travail collaboratif de notre groupe. Chaque membre a créé une page avec ses informations.</p>
