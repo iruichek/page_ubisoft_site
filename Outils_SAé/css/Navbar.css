@@ -42,11 +42,6 @@ body, html {
   flex: 1;
 }
 
-
-.nav-link.ouverte{
-  background-color: green;
-
-}
 .nav-link:hover {
   background: #ad2740;
   position: relative;
