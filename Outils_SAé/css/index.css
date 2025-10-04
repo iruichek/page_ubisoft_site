@@ -1,0 +1,81 @@
+/* =======================
+   Base
+======================= */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #edf2f4;
+  font-family: Arial, sans-serif;
+}
+
+/* =======================
+   Main container
+======================= */
+.main-container {
+  display: flex;
+  flex-direction: row;
+  min-height: calc(100vh - 140px); /* espace entre header et footer */
+}
+
+
+
+/* Texte */
+.text-zone {
+  flex: 0 0 40%; 
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Carousel */
+.carousel-zone {
+  flex: 0 0 60%;          
+  display: flex;          
+  justify-content: center;
+  align-items: center;    
+  padding: 20px;          
+  box-sizing: border-box; 
+}
+
+.carousel-zone .carousel {
+  max-width: 90%;   
+  border-radius: 10px; 
+  overflow: hidden;    
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2); 
+}
+
+.carousel-img {
+  width: 100%;
+  height: auto;    
+  object-fit: cover;
+}
+
+.call{
+  color: white;
+  text-decoration:none
+}
+
+/* Footer */
+.footer {
+  background-color: #2b2e42;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* =======================
+   Responsive
+======================= */
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+  }
+  .text-zone, .carousel-zone {
+    flex: 0 0 100%;
+  }
+  .carousel-img {
+    height: 300px;
+  }
+}
