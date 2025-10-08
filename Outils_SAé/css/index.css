@@ -1,6 +1,4 @@
-/* =======================
-   Base
-======================= */
+/* Base*/
 body, html {
   margin: 0;
   padding: 0;
@@ -9,13 +7,11 @@ body, html {
   font-family: Arial, sans-serif;
 }
 
-/* =======================
-   Main container
-======================= */
+/* Contenu */
 .main-container {
   display: flex;
   flex-direction: row;
-  min-height: calc(100vh - 140px); /* espace entre header et footer */
+  min-height: calc(100vh - 140px); 
 }
 
 
@@ -65,9 +61,7 @@ body, html {
   padding: 20px;
 }
 
-/* =======================
-   Responsive
-======================= */
+/* Responsive*/
 @media (max-width: 768px) {
   .main-container {
     flex-direction: column;

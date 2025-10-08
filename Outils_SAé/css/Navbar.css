@@ -1,6 +1,4 @@
-/* =======================
-   Base
-======================= */
+/* Base*/
 body, html {
   margin: 0;
   padding: 0;
@@ -9,9 +7,7 @@ body, html {
   font-family: Arial, sans-serif;
 }
 
-/* =======================
-   Navbar full width
-======================= */
+/* Navbar */
 .navbar {
   width: 100%;
   margin: 0;
@@ -31,14 +27,14 @@ body, html {
 
 .navbar-collapse {
   display: flex;
-  justify-content: space-between; /* Sépare les liens et la barre de recherche */
+  justify-content: space-between; 
   align-items: center;
   transform: translateX(-50px);
 }
 
 .navbar-nav {
   display: flex;
-  justify-content: center; /* Centre les liens dans leur conteneur */
+  justify-content: center; 
   flex: 1;
 }
 
