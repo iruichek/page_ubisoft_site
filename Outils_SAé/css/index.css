@@ -25,6 +25,10 @@ body, html {
   justify-content: center;
 }
 
+.btn-primary{
+  background-color: #2b2e42;
+  border: none;
+}
 /* Carousel */
 .carousel-zone {
   flex: 0 0 60%;          
