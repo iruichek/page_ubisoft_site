@@ -4,7 +4,7 @@ body {
     color: rgb(14, 14, 14);
     text-align: center;
     margin: 0;
-    padding: 0px;
+    padding: 40px;
     padding-bottom: 100px;
     min-height: 100vh;
     box-sizing: boder-box;
@@ -82,5 +82,6 @@ body {
 footer {
     margin-top: 40px;
     }
+
 
 
