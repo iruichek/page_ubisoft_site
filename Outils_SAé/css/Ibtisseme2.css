@@ -5,6 +5,9 @@ body {
     text-align: center;
     margin: 0;
     padding: 40px;
+    padding-bottom: 100px;
+    min-height: 100vh;
+    box-sizing: boder-box;
   }
   
   /* Titre principal */
@@ -75,3 +78,8 @@ body {
     bottom: 20px;
     font-size: 0.9rem;
   }
+
+footer {
+    margin-top: 40px;
+    }
+
