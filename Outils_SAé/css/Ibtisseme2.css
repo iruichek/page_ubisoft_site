@@ -1,31 +1,4 @@
-/* 🔧 Réinitialisation globale pour supprimer les marges blanches */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* 🔝 Supprime les marges automatiques du body */
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4; /* ou la couleur que tu veux */
-}
-
-/* 🧭 Barre de navigation qui colle en haut et prend toute la largeur */
-nav {
-  position: fixed;   /* colle la nav en haut de la page */
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-}
-
-/* 🧩 Contenu principal — pour qu’il ne passe pas sous la nav */
-main, section {
-  margin-top: 80px; /* adapte selon la hauteur de ta nav */
-}
-    
+/* ---------- STYLE GLOBAL ---------- */
 
 body {
     font-family: 'Poppins', sans-serif; /* Police moderne */
@@ -34,9 +7,6 @@ body {
     text-align: center;
     margin: 0;
     padding: 40px;
-    padding-bottom: 100px;
-    min-height: 100vh;
-    box-sizing: boder-box;
   }
   
   /* Titre principal */
@@ -107,12 +77,3 @@ body {
     bottom: 20px;
     font-size: 0.9rem;
   }
-
-footer {
-    margin-top: 40px;
-    }
-
-
-
-
-
