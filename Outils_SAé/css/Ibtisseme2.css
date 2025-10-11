@@ -1,9 +1,30 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: boder-box;
+/* 🔧 Réinitialisation globale pour supprimer les marges blanches */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-    
+
+/* 🔝 Supprime les marges automatiques du body */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* ou la couleur que tu veux */
+}
+
+/* 🧭 Barre de navigation qui colle en haut et prend toute la largeur */
+nav {
+  position: fixed;   /* colle la nav en haut de la page */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* 🧩 Contenu principal — pour qu’il ne passe pas sous la nav */
+main, section {
+  margin-top: 80px; /* adapte selon la hauteur de ta nav */
+}
     
 
 body {
@@ -90,6 +111,7 @@ body {
 footer {
     margin-top: 40px;
     }
+
 
 
 
