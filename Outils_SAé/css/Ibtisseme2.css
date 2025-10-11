@@ -37,7 +37,7 @@ body {
     box-shadow: 0 4px 15px rgba(0,0,0,0.4); /* Ombre autour de la carte */
     cursor: pointer; /* Change le curseur au survol */
     transition: transform 0.3s ease; /* Animation au survol */
-    background: black;
+    background: pink;
   }
   
   /* Zoom léger au survol */
@@ -77,3 +77,4 @@ body {
     bottom: 20px;
     font-size: 0.9rem;
   }
+
