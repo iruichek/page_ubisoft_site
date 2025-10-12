@@ -5,13 +5,14 @@ body {
     background: #ffffff; /* Fond sombre pour un effet Ubisoft */
     color: rgb(14, 14, 14);
     text-align: center;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
   }
   
   /* Titre principal */
   .title {
     margin-bottom: 40px;
+     margin-bottom: 40px;
     font-size: 2rem;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -81,6 +82,7 @@ body {
 footer {
     margin-top: 40px;
 }
+
 
 
 
