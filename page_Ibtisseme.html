@@ -121,6 +121,30 @@
   <footer class="footer">
     <p>© 2025 Mon site</p>
   </footer>
+   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    const ctx = document.getElementById('carbonChart').getContext('2d');
+    new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: ['2019', '2020', '2021', '2022', '2023', '2024'],
+        datasets: [{
+          label: 'Tonnes de CO₂',
+          data: [100, 90, 80, 70, 65, 60],
+          borderColor: '#4ade80',
+          backgroundColor: 'rgba(74, 222, 128, 0.2)',
+          fill: true,
+          tension: 0.3
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { display: false }
+        }
+      }
+    });
+  </script>
 
   <script src="Outils_SAé/bootstrap/js/bootstrap.js"></script>>
 </body>
