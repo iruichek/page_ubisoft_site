@@ -1,1 +1,70 @@
+</body>
+</html>
+/* Style de base */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f6f8;
+  color: #1c1c1c;
+  margin: 0;
+  padding: 0;
+}
 
+header {
+  background-color: #00b894;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+header p {
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  color: #00b894;
+  margin-bottom: 10px;
+}
+
+section ul {
+  padding-left: 20px;
+}
+
+section ul li {
+  margin-bottom: 6px;
+}
+
+a {
+  color: #00b894;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #555;
+  margin-bottom: 20px;
+}
