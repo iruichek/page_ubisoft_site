@@ -69,12 +69,14 @@ body {
   gap: 40px;
   align-items: center;
   justify-content: space-between;
+  color: black;
 }
 .liste {
   flex: 1;
   min-width: 300px;
 }
 .initiative {
+  color: black;
   display: flex;
   align-items: flex-start;
   margin-bottom: 20px;
