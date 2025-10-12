@@ -6,7 +6,7 @@ body {
     color: rgb(14, 14, 14);
     text-align: center;
     margin: 0;
-    padding: 40px;
+    padding: 0px;
   }
   
   /* Titre principal */
@@ -77,4 +77,5 @@ body {
     bottom: 20px;
     font-size: 0.9rem;
   }
+
 
