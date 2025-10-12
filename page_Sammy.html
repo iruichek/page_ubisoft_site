@@ -43,12 +43,19 @@
     </nav>
   </header>
 
+
 <section class="titre-page">
   <h2>Plus que du divertissement</h2> <!-- Faire pour que le divertissement ramène à la partie éducation de la page-->
 </section>
 
 <section class="presentation">
-  
+  <p>
+    Ubisoft ont bâti leur entreprise grace
+    à leur produit et les services qu'ils rendent<br>
+    mais aussi par leur savoir faire et les connexions 
+    qu'ils établissent avec leurs joueurs et les <br>
+    entreprises de leurs domaine. 
+  </p>
 </section>
 
 
@@ -63,32 +70,112 @@
   </p>
 </section>
 
-<section class="liste_fournisseur">
-  <!--Une liste des grands fournisseur d'ubisoft avec des logos-->
-
+<section class="titre_focon">
+  <h1>Ses fournisseurs et concurents</h1>
+  <p>
+    Ubisoft se qualifie parmis les studios de 
+    développement vidéo ludique populaires non
+    seulement en france mais aussi dans le monde 
+  </p>
 </section>
 
-<section class="graphique_concurents">
-  <!--Graphique entre ubisoft et ses concurents-->
+<section class="liste_fournisseur">
+  <div class="titre-liste">
+    <p>
+      voici les grands revendeurs agrées d'ubisoft.
+    </p>
+    <div class="liste">
+      <!--Une liste des grands fournisseur d'ubisoft avec des logos-->
+      <img src="Outils_SAé/image/Amazon-Logo-2000-500x281-removebg-preview.png" alt="Amazon">
+      <img src="Outils_SAé/image/Epic-Games-Logo-No-Background-300x225-removebg-preview.png" alt="Epic">
+      <img src="Outils_SAé/image/appstore.png" alt="appstore">
+      <img src="Outils_SAé/image/steam.png" alt="steam">
+    </div>
+  </div>
+  <div class="titre-graph">
+    <p>Graphique du nombre de visite durant le mois de Septembre (en millions)</p>
+    <!--Graphique entre ubisoft et ses concurents-->
+    <div class="graph" id="myChart" style="max-width:700px; height:380px ; min-width: 700px;"></div>
+  </div>
 </section>
 
 <section class="clients">
   <!-- montre les clients d'ubisoft à l'aide d'un graphique-->
 </section>
 
-<section class="savoir_faire">
-  <!-- Montre les differents savoir-faire d'ubisoft grace a la presentation d'article-->
+<section class="titre-sf">
+  <h1>La conception</h1>
 </section>
 
-<!-- NOTE POUR DEMAIN : Faire la section Education
-- Faire la liste des fournisseurs agrées
-- Faire liste des concurents 
-- Faire liste  -->
+<section class="savoir_faire">
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h3>2000</h3>
+        <p>Event description here.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h3>2005</h3>
+        <p>Event description here.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
     <!-- FOOTER -->
   <footer class="footer">
-    <p>© 2025 Mon site</p>
+    <p>© 2025 Page de Sammy</p>
   </footer>
+  
+  <script src="https://www.gstatic.com/charts/loader.js"></script>
+  <script>
+    // Load Google Charts
+    google.charts.load('current', { packages: ['corechart'] });
+    google.charts.setOnLoadCallback(drawChart);
+
+    // Draw the chart
+    function drawChart() {
+      // Set Data
+      const data = google.visualization.arrayToDataTable([
+        ['Country', 'Visiteurs'],
+        ['Ubisoft', 2.4],
+        ['Epic Games', 119.63],
+        ['Steam', 302.72],
+        ['XBOX', 156.87],
+      ]);
+
+      // Set Options
+      const options = {
+        title: 'Nombre de visites d\'utilisateurs',
+        titleTextStyle: {
+          color:'#fff'
+        },
+        colors: ['#d80536'],
+        backgroundColor: '#2b2e42',
+        legendTextStyle : {
+          color: '#fff'
+        },
+         hAxis: {
+          textStyle: { color: '#f1faee' }, 
+          titleTextStyle: { color: '#f1faee' } 
+        },
+        vAxis: {
+          textStyle: { color: '#f1faee' }, 
+          titleTextStyle: { color: '#f1faee' }
+        },
+      
+      };
+      
+
+      // Draw Chart
+      const chart = new google.visualization.BarChart(document.getElementById('myChart'));
+      chart.draw(data, options);
+    }
+  </script>
 
   <script src="Outils_SAé/bootstrap/js/bootstrap.js"></script>
 </body>
