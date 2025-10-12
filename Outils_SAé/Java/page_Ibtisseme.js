@@ -1,8 +1,8 @@
-document.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll('.game-card').forEach(card => {
+document.querySelectorAll('.game-card').forEach(card => {
     const videoSrc = card.getAttribute('data-video');
     const img = card.querySelector('img');
   
+    // Crée un élément vidéo invisible au départ
     const video = document.createElement('video');
     video.src = videoSrc;
     video.preload = 'none';
@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
     card.appendChild(video);
   
+    // Quand la souris passe sur la carte
     card.addEventListener('mouseenter', () => {
       img.style.opacity = '0';
       video.style.opacity = '1';
@@ -27,10 +28,10 @@ document.addEventListener('DOMContentLoaded', () => {
       video.play();
     });
   
+    // Quand la souris quitte la carte
     card.addEventListener('mouseleave', () => {
       video.pause();
       video.style.opacity = '0';
       img.style.opacity = '1';
     });
   });
-});
