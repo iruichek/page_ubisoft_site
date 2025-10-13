@@ -16,12 +16,14 @@ body {
 }
 
 /* ---------- GRILLE DE JEUX ---------- */
-.franchise-grid {
-  display: flex; /* Les cartes seront côte à côte */
-  justify-content: center; /* Centrer la grille */
-  flex-wrap: wrap; /* Retour à la ligne si l’écran est petit */
-  gap: 30px; /* Espace entre les cartes */
+/* Chaque franchise (carte + texte + bouton) */
+.franchise-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
 }
+
 
 /* ---------- CARTE DE JEU ---------- */
 .game-card {
@@ -89,3 +91,4 @@ body {
 footer {
   margin-top: 40px;
 }
+
