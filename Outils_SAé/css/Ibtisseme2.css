@@ -63,6 +63,26 @@ body {
   margin-bottom: 15px;
 }
 
+/* --- PETIT BOUTON --- */
+.btn-more {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-bottom: 15px;
+}
+
+.btn-more:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+
 footer {
   margin-top: 40px;
 }
+
