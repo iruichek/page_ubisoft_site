@@ -25,39 +25,46 @@ body {
 
 /* ---------- CARTE DE JEU ---------- */
 .game-card {
+  position: relative;
   width: 300px;
-  background: #000;
-  border-radius: 12px;
+  height: 400px;
   overflow: hidden;
+  border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+  cursor: pointer;
   transition: transform 0.3s ease;
+  background: black;
 }
 
 .game-card:hover {
   transform: scale(1.05);
 }
 
-/* ---------- IMAGE / VIDÉO ---------- */
+/* Image ou vidéo plein cadre */
 .game-card img,
 .game-card iframe {
   width: 100%;
-  height: 200px;
+  height: 100%;
   object-fit: cover;
-  border-radius: 12px 12px 0 0;
+  border-radius: 12px;
   transition: opacity 0.3s ease;
 }
 
-/* ---------- TEXTE SOUS LA CARTE ---------- */
-.game-card h3 {
-  font-size: 1.2rem;
-  margin: 10px 0 5px 0;
-  color: #000;
+/* ---------- ZONE DE TEXTE SOUS LA CARTE ---------- */
+.card-info {
+  margin-top: 10px;
 }
 
-.game-card p {
+.card-info h3 {
+  font-size: 1.2rem;
+  color: #000;
+  margin: 5px 0;
+}
+
+.card-info p {
   font-size: 0.9rem;
   color: #333;
-  margin: 0 10px 10px 10px;
+  margin: 0 0 10px 0;
 }
 
 /* ---------- BOUTON “EN SAVOIR PLUS” ---------- */
@@ -69,7 +76,6 @@ body {
   border-radius: 8px;
   cursor: pointer;
   transition: background 0.3s ease;
-  margin-bottom: 15px;
 }
 
 .btn-info:hover {
