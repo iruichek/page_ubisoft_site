@@ -1,13 +1,13 @@
 body {
-  font-family: 'Poppins', sans-serif;
-  background: #ffffff;
+  font-family: 'Poppins', sans-serif; /* Police moderne */
+  background: #ffffff; /* Fond clair */
   color: rgb(14, 14, 14);
   text-align: center;
   margin: 0;
   padding: 0;
 }
 
-/* ---------- TITRE PRINCIPAL ---------- */
+/* Titre principal */
 .title {
   margin-bottom: 40px;
   font-size: 2rem;
@@ -17,10 +17,10 @@ body {
 
 /* ---------- GRILLE DE JEUX ---------- */
 .franchise-grid {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
+  display: flex; /* Les cartes seront côte à côte */
+  justify-content: center; /* Centrer la grille */
+  flex-wrap: wrap; /* Retour à la ligne si l’écran est petit */
+  gap: 30px; /* Espace entre les cartes */
 }
 
 /* ---------- CARTE DE JEU ---------- */
@@ -33,14 +33,14 @@ body {
   box-shadow: 0 4px 15px rgba(0,0,0,0.4);
   cursor: pointer;
   transition: transform 0.3s ease;
-  background: black;
+  background: pink; /* À changer si tu veux */
 }
 
 .game-card:hover {
   transform: scale(1.05);
 }
 
-/* Image ou vidéo plein cadre */
+/* Image et vidéo */
 .game-card img,
 .game-card iframe {
   width: 100%;
@@ -50,36 +50,39 @@ body {
   transition: opacity 0.3s ease;
 }
 
-/* ---------- ZONE DE TEXTE SOUS LA CARTE ---------- */
-.card-info {
+/* ---------- TEXTE EN DESSOUS DES CARTES ---------- */
+.franchise-grid h3 {
   margin-top: 10px;
-}
-
-.card-info h3 {
   font-size: 1.2rem;
   color: #000;
-  margin: 5px 0;
 }
 
-.card-info p {
+.franchise-grid p {
+  margin-top: 5px;
   font-size: 0.9rem;
   color: #333;
-  margin: 0 0 10px 0;
 }
 
-/* ---------- BOUTON “EN SAVOIR PLUS” ---------- */
-.btn-info {
-  background: #00bcd4;
-  border: none;
+/* ---------- PETIT BOUTON ---------- */
+.info-btn {
+  background-color: #0066cc; /* Bleu Ubisoft */
   color: white;
-  padding: 8px 16px;
-  border-radius: 8px;
+  border: none;
+  padding: 5px 10px; /* Petit bouton */
+  border-radius: 6px;
   cursor: pointer;
-  transition: background 0.3s ease;
+  font-size: 0.8rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 8px;
 }
 
-.btn-info:hover {
-  background: #0097a7;
+.info-btn:hover {
+  background-color: #004b99;
+  transform: scale(1.05);
+}
+
+.info-btn:active {
+  transform: scale(0.95);
 }
 
 /* ---------- FOOTER ---------- */
