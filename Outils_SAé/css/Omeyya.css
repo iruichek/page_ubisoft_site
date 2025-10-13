@@ -1,78 +1,109 @@
-/* =======================
-   Base
-======================= */
-body, html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  background-color: #edf2f4;
-  font-family: Arial, sans-serif;
+
+.graphe > h3:first-of-type {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 20px;
 }
 
-/* =======================
-   Navbar full width
-======================= */
-.navbar {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: #2b2e42;
-  width: 100%;
-  margin: 0;
-  padding: 10px 20px; 
-}
 
-.nav-link {
-  background:linear-gradient( #500210, #d80536 );
-  color: white !important;
-  margin: 0 25px;
-  border-radius: 5px;
-}
-
-.navbar-collapse {
+.double-images {
   display: flex;
-  justify-content: space-between; /* Sépare les liens et la barre de recherche */
+  justify-content: center;
   align-items: center;
-  transform: translateX(-50px);
+  gap: 40px;
+  margin-bottom: 40px;
 }
 
-.navbar-nav {
+
+.bloc {
   display: flex;
-  justify-content: center; /* Centre les liens dans leur conteneur */
-  flex: 1;
-}
-
- .nav-link:hover {
-  background: #ad2740;
-  position: relative;
-  transform: translateY(-3px);
-  box-shadow: 0 5px 15px black;
+  flex-direction: column;
+  align-items: center;
 }
 
 
- .active {
-  background-color: #ad2740;
+.double-images .bloc:first-child img {
+  max-width: 55%;     
 }
 
-.Logo_IbtiTech{
-  width: 80%;
-  height: 80%;
+
+.texte-entre-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
 }
 
-.btn_nav{
-  --bs-btn-color: #d80536;
-  --bs-btn-border-color: #d80536;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #d80536;
-  --bs-btn-hover-border-color: #d80536;
-  --bs-btn-focus-shadow-rgb: 25, 135, 84;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #d80536;
-  --bs-btn-active-border-color: #d80536;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #d80536;
-  --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #d80536;
-  --bs-gradient: none;
+.texte-entre-images p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3em;
+  margin: 0;
 }
 
+
+.graphique {
+  display: block;
+  border-radius: 10px;
+  max-width: 40%;
+  height: auto;
+}
+
+
+.graphe > div:not(.double-images) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+
+.text-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 40%;
+  margin-left: 40px;
+  word-wrap: break-word;
+}
+
+
+h3 {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.6em;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+
+.graphe p {
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.3em;
+  line-height: 1.4;
+  margin: 0;
+  width: 100%;
+}
+
+
+.graphe {
+  margin: 40px auto 100px auto; 
+  width: 90%;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
