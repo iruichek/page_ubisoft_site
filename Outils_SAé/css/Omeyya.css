@@ -1,102 +1,100 @@
+/* ===== CONTENEUR ===== */
+.graphe {
+  margin: 60px auto 120px auto;
+  width: 90%;
+  max-width: 1200px;
+}
 
+/* ===== TITRE PRINCIPAL ===== */
 .graphe > h3:first-of-type {
   text-align: center;
   font-size: 2em;
   font-weight: bold;
   text-decoration: underline;
-  margin-bottom: 20px;
-}
-
-
-.double-images {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
   margin-bottom: 40px;
 }
 
-
+/* ===== BLOCS ZIGZAG ===== */
 .bloc {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-
-.double-images .bloc:first-child img {
-  max-width: 55%;     
-}
-
-
-.texte-entre-images {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 30%;
-}
-
-.texte-entre-images p {
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.3em;
-  margin: 0;
-}
-
-
-.graphique {
-  display: block;
-  border-radius: 10px;
-  max-width: 40%;
-  height: auto;
-}
-
-
-.graphe > div:not(.double-images) {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 40px;
   flex-wrap: wrap;
+  margin-bottom: 60px;
+  gap: 20px;
 }
 
+/* Forcer sens : image à gauche (par défaut) ou à droite (row-reverse) */
+.bloc.img-left {
+  flex-direction: row; /* image puis texte */
+  margin-right: 50px;
+}
+.bloc.img-right {
+  flex-direction: row-reverse; /* texte puis image (image à droite visuellement) */
+  margin-left: 50px;
+}
 
+/* Image */
+.bloc img.graphique {
+  border-radius: 10px;
+  max-width: 45%;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+/* Texte */
 .text-block {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  width: 40%;
-  margin-left: 40px;
+  width: 50%;
   word-wrap: break-word;
+  background-color: #2b2e42;
+  padding: 30px;
+  border-radius: 10px;
+  color: #fff;
 }
 
-
-h3 {
+.text-block h3 {
   font-weight: bold;
   text-decoration: underline;
-  font-size: 1.6em;
-  margin: 0;
-  margin-bottom: 5px;
+  font-size: 28px;
+  margin: 0 0 8px 0;
 }
 
-
-.graphe p {
-  text-align: left;
-  font-weight: bold;
-  font-size: 1.3em;
+.text-block p {
+  margin: 0;
+    font-size: 22px;
   line-height: 1.4;
-  margin: 0;
-  width: 100%;
 }
 
+/* Alignements selon sens */
+.bloc.img-left .text-block { text-align: left; align-items: flex-start; }
+.bloc.img-right .text-block { text-align: right; align-items: flex-end; }
 
-.graphe {
-  margin: 40px auto 100px auto; 
-  width: 90%;
+
+/* Responsive : sur petits écrans, empiler (image au-dessus du texte) */
+@media (max-width: 768px) {
+  .bloc {
+    flex-direction: column !important;
+    align-items: center;
+    text-align: center;
+  }
+
+  .bloc img.graphique, .text-block {
+    max-width: 90%;
+    width: 100%;
+  }
+
+  .bloc.img-right .text-block,
+  .bloc.img-left .text-block {
+    text-align: center;
+    align-items: center;
+  }
 }
 
-
+/* Footer fixe */
 footer {
   position: fixed;
   bottom: 0;

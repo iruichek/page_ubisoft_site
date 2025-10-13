@@ -1,107 +1,98 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maquette avec diapo</title>
-    <link rel="stylesheet" href="Outils_SAé/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="Outils_SAé/css/Navbar.css">
-    <link rel="stylesheet" href="Outils_SAé/css/Omeyya.css">
-    <link rel="icon" type="image/png" href="Outils_SAé/image/Logo.png" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Économie de Ubisoft</title>
+  <link rel="stylesheet" href="Outils_SAé/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="Outils_SAé/css/Navbar.css">
+  <!-- IMPORTANT : Omeyya.css doit être chargé en dernier pour écraser si besoin -->
+  <link rel="stylesheet" href="Outils_SAé/css/Omeyya.css">
+  <link rel="icon" type="image/png" href="Outils_SAé/image/Logo.png" />
 </head>
-
 <body>
+  <!-- header/navbar (inchangé) -->
+  <header class="navbar">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img class="Logo_IbtiTech" src="Outils_SAé/image/Logo-removebg-preview.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link"  href="page_Dylan.html">Histoire</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page2_Ibtisseme.html">Franchises</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page_Omeyya.html">Economie</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page_Ibtisseme.html">Environnement</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page_Sammy.html">social</a>
+          </li>
+        </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+            <button class="btn btn-outline-success btn_nav" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-    <!-- HEADER / NAVBAR -->
-    <header class="navbar">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                    <img class="Logo_IbtiTech" src="Outils_SAé/image/Logo-removebg-preview.png" alt="logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="page_Dylan.html">Histoire</a></li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="page2_Ibtisseme.html">Franchises</a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="page_Omeyya.html">Economie</a></li>
-                        <li class="nav-item"><a class="nav-link" href="page_Ibtisseme.html">Environnement</a></li>
-                        <li class="nav-item"><a class="nav-link" href="page_Sammy.html">Social</a></li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button class="btn btn-outline-success btn_nav" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-    </header>
+  <!-- CONTENU -->
+  <div class="graphe">
+    <h3>Économie de Ubisoft</h3>
 
-   
-    <div class="graphe">
-
-        <h3>Economie de Ubisoft</h3>
-        <br>
-<div class="double-images">
-    <div class="bloc">
-        <img src="Outils_SAé/image/image3.png" class="graphique" alt="Image 1">
+    <!-- Bloc 1 : IMAGE À GAUCHE (1ère image à gauche) -->
+    <div class="bloc img-left">
+      <img src="Outils_SAé/image/image3.png" class="graphique circle" alt="Part de marché Ubisoft">
+      <div class="text-block">
+        <h3>Part de marché et investissement</h3>
+        <p>Ubisoft détient environ 1.1 % de parts de marché, un chiffre faible comparé à ses concurrents tels qu’Epic Games. Après de grosses difficultés financières, le géant chinois Tencent a racheté 25 % d’Ubisoft, soit près de 1.8 milliard d’euros.</p>
+      </div>
     </div>
 
-    <div class="bloc texte-entre-images">
-        <p>Aujourd'hui Ubisoft ont environ 1.1% de parts de marché, ce qui est peu comparé à des concurrents comme Epic Games... Après de grosse difficulté finacière de Ubisoft, le géant chinois Tencent à rachetter 25% de Ubisoft soit 1.8 Milliards d'euro.</p>
+    <!-- Bloc 2 : IMAGE À DROITE -->
+    <div class="bloc img-right">
+      <img src="Outils_SAé/image/2003.png" class="graphique linear" alt="Graphique 2003-2009">
+      <div class="text-block">
+        <h3>CA de Ubisoft de 2003 à 2009</h3>
+        <p>De 2003 à 2009, Ubisoft a connu une croissance exponentielle de son chiffre d'affaires, portée par de grandes licences comme Assassin's Creed.</p>
+      </div>
     </div>
 
-
-</div>
-
-
-        <!-- Bloc 1 -->
-        <div>
-            <div class="text-block">
-                <h3>CA de Ubisoft de 2003 à 2009</h3>
-                <p>De 2003 à 2009, Ubisoft a connu une croissance exponentielle de son chiffre d'affaires. 
-                    Cela est dû à ses grandes licences qui se vendent très bien, comme Assassin's Creed.</p>
-            </div>
-            <img src="Outils_SAé/image/2003.png" class="graphique" alt="Graphique 2003-2009">
-        </div>
-
-        <!-- Bloc 2 -->
-        <div>
-            <div class="text-block">
-                <h3>CA de Ubisoft de 2010 à 2021</h3>
-                <p>Ubisoft continue d'avoir une croissance en hausse sur son chiffre d'affaires. 
-                    Cependant, cette croissance est moins importante que celle observée entre 2003 et 2009.</p>
-            </div>
-            <img src="Outils_SAé/image/2010.png" class="graphique" alt="Graphique 2010-2021">
-        </div>
-
-        <!-- Bloc 3 -->
-        <div>
-            <div class="text-block">
-                <h3>CA de Ubisoft de 2021 à 2024</h3>
-                <p>Ces dernières années, Ubisoft stagne, voire baisse en chiffre d'affaires. 
-                    La baisse des ventes de jeux pousse l'entreprise à réduire ses effectifs pour survivre.</p>
-            </div>
-            <img src="Outils_SAé/image/2024.png" class="graphique" alt="Graphique 2021-2024">
-        </div>
-
+    <!-- Bloc 3 : IMAGE À GAUCHE (3ᵉ image à gauche) -->
+    <div class="bloc img-left">
+      <img src="Outils_SAé/image/2010.png" class="graphique lienar" alt="Graphique 2010-2021">
+      <div class="text-block">
+        <h3>CA de Ubisoft de 2010 à 2021</h3>
+        <p>Ubisoft continue d'avoir une croissance en hausse sur son chiffre d'affaires, mais moins marquée que sur la période 2003-2009.</p>
+      </div>
     </div>
 
-    <!-- FOOTER -->
-    <footer class="footer">
-        <p>© 2025 Page de Oméyya</p>
-       
-    </footer>
+    <!-- Bloc 4 : IMAGE À DROITE -->
+    <div class="bloc img-right">
+      <img src="Outils_SAé/image/2024.png" class="graphique lienar " alt="Graphique 2021-2024">
+      <div class="text-block">
+        <h3>CA de Ubisoft de 2021 à 2024</h3>
+        <p>Ces dernières années, Ubisoft stagne, voire baisse en chiffre d'affaires. La baisse des ventes pousse l'entreprise à réduire ses effectifs pour s'adapter.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2025 Page de Oméyya</p>
+  </footer>
 
   <script src="Outils_SAé/bootstrap/js/bootstrap.js"></script>
-
 </body>
-
 </html>
