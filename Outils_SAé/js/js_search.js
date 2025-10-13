@@ -6,7 +6,7 @@ const pages = [
     },
     {
       titre: "Social",
-      contenu: "Fournisseurs, concurrents, impact social, accessibilité, revendeurs, visites, divertissement pour tous.",
+      contenu: "Fournisseurs, services, concurrents, impact social, accessibilité, revendeurs, visites, divertissement pour tous.",
       lien: "page_Sammy.html"
     },
     {
@@ -35,7 +35,7 @@ const pages = [
   // Configuration de Fuse.js
   const fuse = new Fuse(pages, {
     keys: ["titre", "contenu"],
-    threshold: 0.4 // Plus c’est bas, plus la recherche est stricte
+    threshold: 0.6 // Plus c’est bas, plus la recherche est stricte
   });
 
   // Sélection des éléments du formulaire
