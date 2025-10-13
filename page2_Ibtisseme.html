@@ -3,36 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Les franchises Ubisoft</title>
+  <title>Sanovi | Ubisoft Franchises </title>
   <link rel="stylesheet" href="Outils_SAé/bootstrap/css/bootstrap.css">
   <link rel="stylesheet" href="Outils_SAé/css/Navbar.css">
   <link rel="stylesheet" href="Outils_SAé/css/Ibtisseme2.css">
   <link rel="icon" type="image/png" href="Outils_SAé/image/Logo.png" />
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
 </head>
-
 <body>
+
   <!-- NAVBAR -->
   <header class="navbar">
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <img class="Logo_IbtiTech" src="Outils_SAé/image/Logo-removebg-preview.png" alt="logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="index.html"><img class="Logo_IbtiTech" src="Outils_SAé/image/Logo-removebg-preview.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item"><a class="nav-link" href="page_Dylan.html">Histoire</a></li>
-            <li class="nav-item"><a class="nav-link" href="page2_Ibtisseme.html">Franchises</a></li>
-            <li class="nav-item"><a class="nav-link" href="page_Omeyya.html">Economie</a></li>
-            <li class="nav-item"><a class="nav-link" href="page_Ibtisseme.html">Environnement</a></li>
-            <li class="nav-item"><a class="nav-link" href="page_Sammy.html">Social</a></li>
-          </ul>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link"  href="page_Dylan.html">Histoire</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="page2_Ibtisseme.html">Franchises</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page_Omeyya.html">Economie</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page_Ibtisseme.html">Environnement</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page_Sammy.html">social</a>
+          </li>
+        </ul>
           <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
             <button class="btn btn-outline-success btn_nav" type="submit">Search</button>
           </form>
         </div>
@@ -42,43 +49,65 @@
 
   <h1 class="title">Les franchises Ubisoft</h1>
 
-  <!-- Grille des jeux -->
   <div class="franchise-grid">
-
-    <!-- JUST DANCE -->
-    <div class="game-card" data-video="https://www.youtube.com/embed/Yxg9Tb428GI?mute=1">
-      <img src="https://cdn-images.dzcdn.net/images/cover/8309a50fd23a0a080cc584ec7fada9de/1900x1900-000000-81-0-0.jpg" alt="Just Dance 2025">
+    <div class="game-card" >
+        <img src="https://cdn-images.dzcdn.net/images/cover/8309a50fd23a0a080cc584ec7fada9de/1900x1900-000000-81-0-0.jpg" alt="just dance">
+        <h3>Just Dance</h3>
+        <p>Dansez sur les plus grands hits avec vos amis !</p>
+    <div class="game-card">
+      <img src="https://preview.redd.it/whatd-you-guys-think-of-assassins-creed-mirage-v0-uh4lhiufg6ac1.jpeg?width=640&crop=smart&auto=webp&s=30a38b61cb9a17cb5521268818611a2578d13d46" alt="Assassin’s Creed">
+      <h3>Assassin’s Creed </h3>
+      <p>Incarnez Basim dans une aventure au cœur de Bagdad.</p>
     </div>
-    <h3>Just Dance 2025</h3>
-    <p>Dansez sur les plus grands hits avec vos amis !</p>
-    <a href="https://www.ubisoft.com/fr-fr/game/just-dance/2025" class="btn btn-primary btn-sm">En savoir plus</a>
 
-    <!-- FAR CRY 6 -->
-    <div class="game-card" data-video="assets/far-cry.mp4">
-      <img src="https://image.api.playstation.com/vulcan/img/rnd/202106/0722/4MxzDZKZwtEWyMWZghvwd7bQ.jpg" alt="Far Cry 6">
+    <div class="game-card">
+      <img src="https://image.api.playstation.com/vulcan/img/rnd/202106/0722/4MxzDZKZwtEWyMWZghvwd7bQ.jpg" alt="Far Cry">
+      <h3>Far Cry </h3>
+      <p>Rejoignez la révolution contre le dictateur Anton Castillo.</p>
     </div>
-    <h3>Far Cry 6</h3>
-    <p>Rejoignez la rébellion et libérez l’île de Yara de son dictateur impitoyable !</p>
-   
 
-    <!-- MARIO + LAPINS CRETINS -->
-    <div class="game-card" data-video="assets/mario-lapins.mp4">
-      <img src="https://m.media-amazon.com/images/I/81E5jU1QgjL._AC_SL1500_.jpg" alt="Mario + Lapins Crétins: Sparks of Hope">
-    </div>
-    <h3>Mario + The Lapins Crétins: Sparks of Hope</h3>
-    <p>Partez à l’aventure avec Mario et ses amis pour sauver la galaxie aux côtés des Lapins Crétins !</p>
-    <a href="https://www.ubisoft.com/fr-fr/game/mario-rabbids/sparks-of-hope" class="btn btn-primary btn-sm">En savoir plus</a>
+    <div class="game-card">
+        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202404/1815/33f39cad34ac468a040ffed5a43149fb4329ec6c73326838.jpg" alt="Assassin’s Crééd Shadow ">
+        <h3>Assassin’s Creed</h3>
+        <p>Plongez dans l'aventure du samouraï noir.</p>
+      </div>
 
-    <!-- ASSASSIN'S CREED SHADOWS -->
-    <div class="game-card" data-video="assets/assassins-creed.mp4">
-      <img src="https://image.api.playstation.com/vulcan/ap/rnd/202404/1815/33f39cad34ac468a040ffed5a43149fb4329ec6c73326838.jpg" alt="Assassin’s Creed Shadows">
-    </div>
-    <h3>Assassin’s Creed Shadows</h3>
-    <p>Plongez dans le Japon féodal et maîtrisez l’art de l’assassinat avec Naoe et Yasuke !</p>
-    <a href="https://www.ubisoft.com/fr-fr/game/assassins-creed/shadows" class="btn btn-primary btn-sm">En savoir plus</a>
+      <div class="game-card">
+        <img src="https://store.ubisoft.com/on/demandware.static/-/Sites-masterCatalog/default/dwbb9f4500/images/large/574d3e3e6b54a406348b4567.jpg" alt="Watch dogs">
+        <h3>Watch_dogs</h3>
+        <p>Incarnez la vie du plus grand pirate informatique de la ville.</p>
+      </div>
 
+      <div class="game-card">
+        <img src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5K3dusmxPPiKsRnWjqCnPq/b3f8af1e7c7abb8e4b12c2501f10e070/RabbidsPartyOfLegends_boxshot_FR.jpg" alt="lapin crétin">
+        <h3>Lapin crétin</h3>
+        <p>Vivez l'aventure des Lapin Crétin, les plus crétins des lapins.</p>
+      </div>
   </div>
 
+
+    <!-- FOOTER -->
+<footer class="footer text-center text-light py-4" style="background-color: #2b2e42;">
+  <div class="container">
+    <div class="mb-3">
+      <a href="https://www.facebook.com/Ubisoft" target="_blank" class="text-light mx-3">
+        <i class="bi bi-facebook fs-4"></i>
+      </a>
+      <a href="https://twitter.com/Ubisoft" target="_blank" class="text-light mx-3">
+        <i class="bi bi-twitter fs-4"></i>
+      </a>
+      <a href="https://www.instagram.com/Ubisoft" target="_blank" class="text-light mx-3">
+        <i class="bi bi-instagram fs-4"></i>
+      </a>
+      <a href="https://www.linkedin.com/company/ubisoft" target="_blank" class="text-light mx-3">
+        <i class="bi bi-linkedin fs-4"></i>
+      </a>
+      <a href="https://www.youtube.com/ubisoft" target="_blank" class="text-light mx-3">
+        <i class="bi bi-youtube fs-4"></i>
+      </a>
+    </div>
+    <p class="mb-0">© 2025 Sanovi — Tout droit réservé</p>
+  </div>
 </footer>
 <script src="Outils_SAé/js/js_search.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
