@@ -7,13 +7,15 @@ body {
   padding: 0;
 }
 
+/* TITRE */
 .title {
-  margin-bottom: 40px;
+  margin: 40px 0;
   font-size: 2rem;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
+/* GRILLE DES JEUX */
 .franchise-grid {
   display: flex;
   justify-content: center;
@@ -21,51 +23,66 @@ body {
   gap: 30px;
 }
 
+/* CARTES */
 .game-card {
-  position: relative;
   width: 300px;
-  height: 400px;
-  overflow: hidden;
   border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
-  cursor: pointer;
-  transition: transform 0.3s ease;
-  background: pink;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  overflow: hidden;
+  background: #fff;
+  position: relative;
+  transition: box-shadow 0.3s ease;
 }
 
-.game-card:hover {
+/* Conteneur interne pour le zoom fluide */
+.game-card img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+/* Zoom fluide sans déplacer la carte */
+.game-card:hover img {
   transform: scale(1.05);
 }
 
-.game-card img,
-.game-card iframe {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 12px;
-  transition: opacity 0.3s ease;
+.game-card:hover {
+  box-shadow: 0 8px 25px rgba(0,0,0,0.4);
 }
 
-.game-card h3,
-.game-card p {
-  position: absolute;
-  z-index: 2;
-  left: 10px;
-  right: 10px;
-  color: white;
-  text-shadow: 0 2px 6px black;
-}
-
+/* TEXTE */
 .game-card h3 {
-  bottom: 50px;
   font-size: 1.2rem;
+  margin: 15px 0 5px 0;
 }
 
 .game-card p {
-  bottom: 20px;
   font-size: 0.9rem;
+  margin-bottom: 15px;
 }
+
+/* --- PETIT BOUTON --- */
+.btn-more {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-bottom: 15px;
+}
+
+.btn-more:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
 
 footer {
   margin-top: 40px;
 }
+
