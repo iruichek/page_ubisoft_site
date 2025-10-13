@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  background: #edf2f4;
+  font-family: 'Poppins', sans-serif;
+}
+
 .titre-page {
     width: 70%;
     margin: 50px auto;
