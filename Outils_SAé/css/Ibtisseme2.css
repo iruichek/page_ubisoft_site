@@ -47,13 +47,15 @@ body {
   }
   
   /* Image et vidéo doivent remplir toute la carte */
-  .game-card img,
-  .game-card video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* L’image et la vidéo couvrent toute la zone */
-    border-radius: 12px;
-  }
+ .game-card img,
+.game-card iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: opacity 0.3s ease;
+}
+
   
   /* ---------- TEXTE SUR LES CARTES ---------- */
   
@@ -82,6 +84,7 @@ body {
 footer {
     margin-top: 40px;
 }
+
 
 
 
