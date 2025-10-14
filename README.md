@@ -26,7 +26,7 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 
 **Auteur : Pernot Dylan**  
 
-Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Firuichek.github.io%2Fpage_ubisoft_site%2Findex.html)
 
 
 <img src="doc/W3C_1.PNG" style="width=400px" alt="capture ecran sur w3c">
@@ -41,7 +41,7 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 
 **Auteur : Pernot Dylan**  
 
-Verification W3C : [Détail ICI](https://validator.w3.org/nu/showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+Verification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Firuichek.github.io%2Fpage_ubisoft_site%2Fpage_Dylan.html)
 
 <img src="doc/W3C_2.PNG" style="width=400px" alt="capture ecran sur w3c">
 
@@ -53,7 +53,7 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/showsource=yes&show
 
 **Auteur : Ruichek Ibtisseme **  
 
-Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Firuichek.github.io%2Fpage_ubisoft_site%2Fpage2_Ibtisseme.html)
 
 
 <img src="doc/W3C_3.PNG" style="width=400px" alt="capture ecran sur w3c">
@@ -65,7 +65,7 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 
 **Auteur : Omeyya Samil **  
 
-Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Firuichek.github.io%2Fpage_ubisoft_site%2Fpage_Omeyya.html)
 
 <img src="doc/W3C_4.PNG" style="width=400px" alt="capture ecran sur w3c">
 
@@ -77,7 +77,7 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 
 **Auteur : Ruichek Ibtisseme **  
 
-Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Firuichek.github.io%2Fpage_ubisoft_site%2Fpage_Ibtisseme.html)
 
 <img src="doc/W3C_5.PNG" style="width=400px" alt="capture ecran sur w3c">
 
@@ -89,7 +89,7 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 
 **Auteur : Taqi Sammy**  
 
-Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Firuichek.github.io%2Fpage_ubisoft_site%2Fpage_Sammy.html)
 
 
 <img src="doc/W3C_6.PNG" style="width=400px" alt="capture ecran sur w3c">
