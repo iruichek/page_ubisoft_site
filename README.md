@@ -140,24 +140,30 @@ ou
 
 ### Planification - Diagramme de GANTT
 
-- Nom Prénom
+- Pernot Dylan
 
 ### Recherches d'informations
 
-- Nom Prénom
-- Nom Prénom
+- Ruichek Ibtisseme
+- Pernot Dylan
+- Taqi Sammy
+- Samil Omeyya
 
 
 ### Développement site
 
-- Nom Prénom
+- Dylan Pernot
   - Page d’accueil
-  - "Template" de page (Navbar/Footer)
-  - Page présentation
-- Nom Prénom
-  - Page histoire
-- Nom Prénom
-  - Page organisation
+  - Template Navbar
+  - Page Histoire
+- Ruichek Ibtisseme
+  - Page Franchises
+  - Page Environnement
+- Taqi Sammy
+  - Page Social
+  - Template Footer
+ - Samil Omeyya
+   - Page Economie   
 
 
 ## Contributeurs
