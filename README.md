@@ -29,18 +29,11 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
 
 
-![capture d'écran de la conformité de la page ...](doc/capture_1_W3C.png)
-
-ou 
-
-<img src="doc/carbone1.PNG" style="width=400px" alt="capture ecran sur w3c">
+<img src="doc/W3C_1.PNG" style="width=400px" alt="capture ecran sur w3c">
 
 
-![capture d'écran sur le site https://www.ecoindex.fr/ pour tester l'eco-conception](doc/capture_1_ecoconcept.png)
 
-ou 
-
-<img src="doc/capture_1_ecoconcept.png" style="width=400px" alt="capture ecran sur ecoconcept pour tester l'eco-conception">
+<img src="doc/carbone1.PNG" style="width=400px" alt="capture ecran sur ecoconcept pour tester l'eco-conception">
 
 <!--  style="width=400px" ne fonctionne pas -->
 
@@ -50,11 +43,11 @@ ou
 
 Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
 
-<br>
-<img src="doc/capture_1_W3C.png" width="400px" alt="capture ecran sur ecoconcept">
+<img src="doc/W3C_2.PNG" style="width=400px" alt="capture ecran sur w3c">
 
-<br>
-<img src="doc/capture_1_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">
+
+
+<img src="doc/carbone2.PNG" style="width=400px" alt="capture ecran sur ecoconcept pour tester l'eco-conception">
 
 ### Page Franchises
 
@@ -63,38 +56,22 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
 
 
-![capture d'écran de la conformité de la page ...](doc/capture_1_W3C.png)
-
-ou 
-
-<img src="doc/capture_1_W3C.png" style="width=400px" alt="capture ecran sur w3c">
+<img src="doc/W3C_3.PNG" style="width=400px" alt="capture ecran sur w3c">
 
 
-![capture d'écran sur le site https://www.ecoindex.fr/ pour tester l'eco-conception](doc/capture_1_ecoconcept.png)
 
-ou 
-
-<img src="doc/capture_1_ecoconcept.png" style="width=400px" alt="capture ecran sur ecoconcept pour tester l'eco-conception">
-
+<img src="doc/carbone3.PNG" style="width=400px" alt="capture ecran sur ecoconcept pour tester l'eco-conception">
 ### Page Economie
 
 **Auteur : Omeyya Samil **  
 
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
 
-
-![capture d'écran de la conformité de la page ...](doc/capture_1_W3C.png)
-
-ou 
-
-<img src="doc/capture_1_W3C.png" style="width=400px" alt="capture ecran sur w3c">
+<img src="doc/W3C_4.PNG" style="width=400px" alt="capture ecran sur w3c">
 
 
-![capture d'écran sur le site https://www.ecoindex.fr/ pour tester l'eco-conception](doc/capture_1_ecoconcept.png)
 
-ou 
-
-<img src="doc/capture_1_ecoconcept.png" style="width=400px" alt="capture ecran sur ecoconcept pour tester l'eco-conception">
+<img src="doc/carbone4.PNG" style="width=400px" alt="capture ecran sur ecoconcept pour tester l'eco-conception">
 
 ### Page Environnement
 
@@ -102,19 +79,11 @@ ou
 
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
 
-
-![capture d'écran de la conformité de la page ...](doc/capture_1_W3C.png)
-
-ou 
-
-<img src="doc/capture_1_W3C.png" style="width=400px" alt="capture ecran sur w3c">
+<img src="doc/W3C_5.PNG" style="width=400px" alt="capture ecran sur w3c">
 
 
-![capture d'écran sur le site https://www.ecoindex.fr/ pour tester l'eco-conception](doc/capture_1_ecoconcept.png)
 
-ou 
-
-<img src="doc/capture_1_ecoconcept.png" style="width=400px" alt="capture ecran sur ecoconcept pour tester l'eco-conception">
+<img src="doc/carbone5.PNG" style="width=400px" alt="capture ecran sur ecoconcept pour tester l'eco-conception">
 
 ### Page Social
 
@@ -123,19 +92,11 @@ ou
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
 
 
-![capture d'écran de la conformité de la page ...](doc/capture_1_W3C.png)
-
-ou 
-
-<img src="doc/capture_1_W3C.png" style="width=400px" alt="capture ecran sur w3c">
+<img src="doc/W3C_6.PNG" style="width=400px" alt="capture ecran sur w3c">
 
 
-![capture d'écran sur le site https://www.ecoindex.fr/ pour tester l'eco-conception](doc/capture_1_ecoconcept.png)
 
-ou 
-
-<img src="doc/capture_1_ecoconcept.png" style="width=400px" alt="capture ecran sur ecoconcept pour tester l'eco-conception">
-
+<img src="doc/carbone6.PNG" style="width=400px" alt="capture ecran sur ecoconcept pour tester l'eco-conception">
 ## Répartition du travail
 
 ### Planification - Diagramme de GANTT
