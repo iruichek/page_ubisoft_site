@@ -22,7 +22,7 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 
 ## Développement Site Web et Validation des pages
 
-### Page d'accueil
+### Page d'Accueil
 
 **Auteur : Pernot Dylan**  
 
