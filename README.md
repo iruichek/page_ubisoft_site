@@ -129,4 +129,5 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 
 ## Contributeurs
 
-![capture d'écran de sur la contribution des membres du projet](doc/livrable2_contributors.png)
+<img src="doc/contributors.png" style="width=400px" alt="contributors">
+
