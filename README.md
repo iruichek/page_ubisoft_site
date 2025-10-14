@@ -33,7 +33,7 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 
 ou 
 
-<img src="doc/capture_1_W3C.png" style="width=400px" alt="capture ecran sur w3c">
+<img src="doc/carbone1.png" style="width=400px" alt="capture ecran sur w3c">
 
 
 ![capture d'écran sur le site https://www.ecoindex.fr/ pour tester l'eco-conception](doc/capture_1_ecoconcept.png)
